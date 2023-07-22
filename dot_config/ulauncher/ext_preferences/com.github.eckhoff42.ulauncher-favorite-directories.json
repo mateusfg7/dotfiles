@@ -1,0 +1,12 @@
+{
+    "preferences": {
+        "default_filebrowser": "nautilus",
+        "root_dir": "~/",
+        "directory_list": "Downloads, Projects, Documents, Pictures, Desktop"
+    },
+    "triggers": {
+        "f": {
+            "keyword": "f"
+        }
+    }
+}

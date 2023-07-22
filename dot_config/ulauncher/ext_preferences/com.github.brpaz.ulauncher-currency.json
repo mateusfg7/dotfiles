@@ -1,0 +1,10 @@
+{
+    "preferences": {
+        "api_key": "b31967d8a240345275d5b1e8714467e2"
+    },
+    "triggers": {
+        "kw": {
+            "keyword": "curr"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "preferences": {
+        "desktop-environment": "gnome",
+        "icon": "white",
+        "other_logout": ""
+    },
+    "triggers": {
+        "kw": {
+            "keyword": "sm"
+        }
+    }
+}

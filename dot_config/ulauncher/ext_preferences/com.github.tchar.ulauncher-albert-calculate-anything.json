@@ -1,0 +1,31 @@
+{
+    "preferences": {
+        "api_key": "b31967d8a240345275d5b1e8714467e2",
+        "cache": "86400",
+        "currency_provider": "fixerio",
+        "default_cities": "New York City US, London GB, Madrid ES, Vancouver CA, Athens GR, Par\u00e1 de Minas MG",
+        "default_currencies": "USD,EUR,GBP,CAD,BRL",
+        "show_empty_placeholder": "n",
+        "units_conversion_mode": "normal"
+    },
+    "triggers": {
+        "bin_kw": {
+            "keyword": "bin"
+        },
+        "calc_kw": {
+            "keyword": "="
+        },
+        "dec_kw": {
+            "keyword": "dec"
+        },
+        "hex_kw": {
+            "keyword": "hex"
+        },
+        "oct_kw": {
+            "keyword": "oct"
+        },
+        "time_kw": {
+            "keyword": "time"
+        }
+    }
+}

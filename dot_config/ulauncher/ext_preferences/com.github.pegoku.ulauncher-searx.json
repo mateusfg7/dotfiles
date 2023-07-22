@@ -1,0 +1,11 @@
+{
+    "preferences": {
+        "searx_search_language": "en-US",
+        "searx_include_instant_answer": "true"
+    },
+    "triggers": {
+        "keyword": {
+            "keyword": "sx"
+        }
+    }
+}
