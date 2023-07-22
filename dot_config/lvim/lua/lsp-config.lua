@@ -1,0 +1,2 @@
+-- Setup Deno LS
+-- require 'lspconfig'.denols.setup {}
