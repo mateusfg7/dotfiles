@@ -124,7 +124,6 @@ alias ls="exa --icons"
 alias commit="cz"
 alias yt-dlp="yt-dlp --concurrent-fragments 3"
 alias youtube-dl="yt-dlp"
-alias delete="shred -v -n 100"
 alias pacman="yay"
 alias generate-server="npx npx-server"
 alias ips='ip -c -br a'
@@ -145,6 +144,9 @@ autoload -U compinit
 compinit -i
 
 export PATH="$PATH:/home/mateusfg7/.local/bin"
+
+# Personal scripts path
+export PATH="$PATH:/home/mateusfg7/Scripts"
 
 # pnpm
 export PNPM_HOME="/home/mateusfg7/.local/share/pnpm"
