@@ -1,0 +1,3 @@
+#!/bin/bash
+
+shred -v -n 100 "$@" && rm -vrf "$@"
