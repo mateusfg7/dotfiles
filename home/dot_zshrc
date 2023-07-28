@@ -116,11 +116,16 @@ zinit light-mode for \
 zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
+zinit light larkery/zsh-histdb
 
 export EDITOR="lvim"
 export ZCOMPLETIONS="/usr/local/share/zsh/site-functions/"
 
 alias ls="exa --icons"
+alias find="fd"
+alias grep"rg"
+alias ps="procs"
+alias history="histdb"
 alias commit="cz"
 alias yt-dlp="yt-dlp --concurrent-fragments 3"
 alias youtube-dl="yt-dlp"
@@ -156,5 +161,38 @@ export PATH="$PNPM_HOME:$PATH"
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
 # pnpm end
 
-# Set gtk theme
-export GTK_THEME="Orchis-Dark-Compact"
+# Go Lang config (https://github.com/asdf-community/asdf-golang#goroot)
+. ~/.asdf/plugins/golang/set-env.zsh
+
+# [START] Integration between zsh-autosuggestions and zsh-histdb 
+
+# This query will find the most frequently issued command that is issued in the
+# current directory or any subdirectory
+_zsh_autosuggest_strategy_histdb_top_here() {
+    local query="select commands.argv from
+history left join commands on history.command_id = commands.rowid
+left join places on history.place_id = places.rowid
+where places.dir LIKE '$(sql_escape $PWD)%'
+and commands.argv LIKE '$(sql_escape $1)%'
+group by commands.argv order by count(*) desc limit 1"
+    suggestion=$(_histdb_query "$query")
+}
+
+# This will find the most frequently issued command issued exactly in this directory,
+# or if there are no matches it will find the most frequently issued command in any directory
+_zsh_autosuggest_strategy_histdb_top() {
+    local query="
+        select commands.argv from history
+        left join commands on history.command_id = commands.rowid
+        left join places on history.place_id = places.rowid
+        where commands.argv LIKE '$(sql_escape $1)%'
+        group by commands.argv, places.dir
+        order by places.dir != '$(sql_escape $PWD)', count(*) desc
+        limit 1
+    "
+    suggestion=$(_histdb_query "$query")
+}
+
+
+ZSH_AUTOSUGGEST_STRATEGY=histdb_top
+# [END]
