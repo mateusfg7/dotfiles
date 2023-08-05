@@ -18,9 +18,10 @@ That's it!
 
 ## Config for...
 
-- zsh
-- oh-my-zsh
-- git
-- lunarvim
-- ulaucher
+- [zsh](https://wiki.archlinux.org/title/zsh)
+- [oh-my-zsh](https://ohmyz.sh/)
+- [git](https://wiki.archlinux.org/title/git)
+- [lunarvim](https://www.lunarvim.org/)
+- [mocp](https://wiki.archlinux.org/title/MOC)
+- [tealdeer](https://github.com/dbrgn/tealdeer)
 
