@@ -198,3 +198,6 @@ _zsh_autosuggest_strategy_histdb_top() {
 
 ZSH_AUTOSUGGEST_STRATEGY=histdb_top
 # [END]
+
+# [START] Weechat config
+WEECHAT_HOME="~/.weechat"
