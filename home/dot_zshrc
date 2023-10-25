@@ -143,8 +143,6 @@ alias edit="$EDITOR"
 alias zconfig='lvim ~/.zshrc'
 alias zcompletions='cd /usr/local/share/zsh/site-functions/'
 alias expo='npx expo'
-alias docker="podman"
-alias docker-compose="podman-compose"
 alias cmedit="chezmoi edit --watch"
 
 autoload -U compinit
