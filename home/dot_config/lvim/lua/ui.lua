@@ -1,2 +1,2 @@
--- lvim.colorscheme = "lunar"
-lvim.transparent_window = true
+lvim.colorscheme = "rose-pine-main"
+-- lvim.transparent_window = true
