@@ -48,5 +48,6 @@ lvim.plugins = {
         -- theme_style = "dark_default"
       })
     end
-  }
+  },
+  { 'datsfilipe/min-theme.nvim' }
 }
