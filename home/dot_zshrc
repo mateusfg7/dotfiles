@@ -199,3 +199,7 @@ ZSH_AUTOSUGGEST_STRATEGY=histdb_top
 
 # [START] Weechat config
 WEECHAT_HOME="~/.weechat"
+
+# Bun Config
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
