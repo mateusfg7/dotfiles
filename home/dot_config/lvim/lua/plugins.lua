@@ -49,5 +49,17 @@ lvim.plugins = {
       })
     end
   },
-  { 'datsfilipe/min-theme.nvim' }
+  { 'datsfilipe/min-theme.nvim' },
+  {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    event = "InsertEnter",
+  },
+  {
+    "zbirenbaum/copilot-cmp",
+    after = { "copilot.lua" },
+    config = function()
+      require("copilot_cmp").setup()
+    end,
+  },
 }
