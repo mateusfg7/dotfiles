@@ -62,4 +62,25 @@ lvim.plugins = {
       require("copilot_cmp").setup()
     end,
   },
+  {
+    "andweeb/presence.nvim",
+    config = function()
+      require("presence").setup({
+        auto_update = true,
+        neovim_image_text = "LunarVim to the moon",
+        main_image = "file",
+        -- client_id = "793271441293967371",
+        log_level = nil,
+        debounce_timeout = 10,
+        enable_line_number = true,                -- displays the current line number instead of the current project
+        editing_text = "Editing %s",              -- %s will be replaced with the file name
+        file_explorer_text = "Browsing %s",       -- %s will be replaced with folder name
+        git_commit_text = "Committing changes",   -- text to display when commiting changes in git
+        plugin_manager_text = "Managing plugins", -- text to display when updating plugins
+        reading_text = "Reading %s",              -- text to display when reading
+        workspace_text = "Working on %s",         -- text to display when you have an active workspace
+        line_number_text = "Line %s out of %s",   -- text to display when line number enabled
+      })
+    end
+  }
 }
