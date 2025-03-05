@@ -62,6 +62,7 @@ lvim.plugins = {
       require("copilot_cmp").setup()
     end,
   },
+  -- { "Dinduks/vim-java-get-set" },
   -- {
   --   "andweeb/presence.nvim",
   --   config = function()
