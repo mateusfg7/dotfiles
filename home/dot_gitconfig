@@ -3,6 +3,7 @@
 	email = mateusfelipefg77@gmail.com
   signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKrZ3IJm/mX2A3d8ekOl+FkxO45Hotn9oyfBmuxq7DE3
 
+
 [cola]
 	spellcheck = true
 	icontheme = dark
