@@ -1,10 +1,6 @@
-[gpg]
-	program = gpg2
-
 [user]
 	name = Mateus Felipe Gonçalves
 	email = mateusfelipefg77@gmail.com
-	signingkey = mateusfelipefg77@gmail.com
 
 [cola]
 	spellcheck = true
@@ -53,5 +49,3 @@
   rebase = true
 #[url "ssh://git@github.com/"]
 #	insteadOf = https://github.com/
-[commit]
-	gpgsign = true
