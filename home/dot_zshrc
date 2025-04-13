@@ -24,7 +24,6 @@ zinit light-mode for \
 zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
-zinit light larkery/zsh-histdb
 zinit light spaceship-prompt/spaceship-prompt
 
 export EDITOR="lvim"
@@ -66,39 +65,6 @@ export PATH="$PNPM_HOME:$PATH"
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
 # pnpm end
 
-# [START] Integration between zsh-autosuggestions and zsh-histdb 
-
-# This query will find the most frequently issued command that is issued in the
-# current directory or any subdirectory
-_zsh_autosuggest_strategy_histdb_top_here() {
-    local query="select commands.argv from
-history left join commands on history.command_id = commands.rowid
-left join places on history.place_id = places.rowid
-where places.dir LIKE '$(sql_escape $PWD)%'
-and commands.argv LIKE '$(sql_escape $1)%'
-group by commands.argv order by count(*) desc limit 1"
-    suggestion=$(_histdb_query "$query")
-}
-
-# This will find the most frequently issued command issued exactly in this directory,
-# or if there are no matches it will find the most frequently issued command in any directory
-_zsh_autosuggest_strategy_histdb_top() {
-    local query="
-        select commands.argv from history
-        left join commands on history.command_id = commands.rowid
-        left join places on history.place_id = places.rowid
-        where commands.argv LIKE '$(sql_escape $1)%'
-        group by commands.argv, places.dir
-        order by places.dir != '$(sql_escape $PWD)', count(*) desc
-        limit 1
-    "
-    suggestion=$(_histdb_query "$query")
-}
-
-
-ZSH_AUTOSUGGEST_STRATEGY=histdb_top
-# [END]
-
 # [START] Weechat config
 WEECHAT_HOME="~/.weechat"
 
@@ -111,3 +77,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Mise Config
 eval "$(mise activate zsh)"
+
+# 1password config
+export SSH_AUTH_SOCK=~/.1password/agent.sock
