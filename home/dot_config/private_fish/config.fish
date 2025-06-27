@@ -28,6 +28,7 @@ alias edit="$EDITOR"
 alias zconfig='lvim ~/.zshrc'
 alias zcompletions='cd /usr/local/share/zsh/site-functions/'
 alias cmedit="chezmoi edit --watch"
+alias cd="z"
 
 export PATH="$PATH:/home/mateusfg7/.local/bin"
 export PATH="$PATH:/home/mateusfg7/Scripts"
@@ -43,3 +44,10 @@ set --export PATH $BUN_INSTALL/bin:$PATH
 zoxide init fish | source
 mise activate fish | source
 op completion fish | source
+
+# pnpm
+set -gx PNPM_HOME "/home/mateus/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
