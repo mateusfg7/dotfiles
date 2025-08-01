@@ -33,6 +33,10 @@ alias cd="z"
 export PATH="$PATH:/home/mateusfg7/.local/bin"
 export PATH="$PATH:/home/mateusfg7/Scripts"
 
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH="$PATH:$ANDROID_HOME/emulator"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
+
 set --export WEECHAT_HOME "~/.weechat"
 
 export SSH_AUTH_SOCK=~/.1password/agent.sock
@@ -45,9 +49,8 @@ zoxide init fish | source
 mise activate fish | source
 op completion fish | source
 
-# pnpm
+# PNPM
 set -gx PNPM_HOME "/home/mateus/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
-# pnpm end
