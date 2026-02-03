@@ -28,7 +28,7 @@ alias edit="$EDITOR"
 alias zconfig='lvim ~/.zshrc'
 alias zcompletions='cd /usr/local/share/zsh/site-functions/'
 alias cmedit="chezmoi edit --watch"
-alias cd="z"
+#alias cd="z"
 
 export PATH="$PATH:/home/mateusfg7/.local/bin"
 export PATH="$PATH:/home/mateusfg7/Scripts"
@@ -54,3 +54,6 @@ set -gx PNPM_HOME "/home/mateus/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
+
+# RUSTUP
+set -e RUSTUP_TOOLCHAIN
