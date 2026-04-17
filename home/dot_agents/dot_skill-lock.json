@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "skills": {
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shadcn/ui.git",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "skillFolderHash": "bf9e83da91320f445f2c27f65067009f344f757a",
+      "installedAt": "2026-04-06T13:32:04.985Z",
+      "updatedAt": "2026-04-06T13:32:04.985Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-04-06T13:32:12.909Z",
+      "updatedAt": "2026-04-06T13:32:12.909Z"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "928950704df8a8b885c03de5da626331e6f29cf8",
+      "pluginName": "example-skills",
+      "installedAt": "2026-04-06T20:54:58.706Z",
+      "updatedAt": "2026-04-06T20:54:58.706Z"
+    },
+    "polish": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/polish/SKILL.md",
+      "skillFolderHash": "fe3d4baa60b9b5c8db22d2f88c38dcf57816b47d",
+      "installedAt": "2026-04-07T13:24:18.330Z",
+      "updatedAt": "2026-04-07T13:24:18.330Z"
+    },
+    "programmatic-seo": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/programmatic-seo/SKILL.md",
+      "skillFolderHash": "ebd45df541268af6df1eef6855731b57fe09deb2",
+      "pluginName": "marketing-skills",
+      "installedAt": "2026-04-07T13:24:32.767Z",
+      "updatedAt": "2026-04-07T13:24:32.767Z"
+    },
+    "docker-expert": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "skillPath": "skills/docker-expert/SKILL.md",
+      "skillFolderHash": "6e4ef11e3f04a33822d9d2a36b43c556f564972c",
+      "installedAt": "2026-04-16T13:07:14.810Z",
+      "updatedAt": "2026-04-17T11:52:35.996Z"
+    },
+    "turborepo": {
+      "source": "vercel/turborepo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel/turborepo.git",
+      "skillPath": "skills/turborepo/SKILL.md",
+      "skillFolderHash": "5cffe587c4552af985368ae579060bdb2f9d05f3",
+      "installedAt": "2026-04-17T11:59:12.584Z",
+      "updatedAt": "2026-04-17T11:59:12.584Z"
+    },
+    "prisma-database-setup": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/prisma/skills.git",
+      "skillPath": "prisma-database-setup/SKILL.md",
+      "skillFolderHash": "24865c9b659196ff3f14a756713f5193ed18addc",
+      "installedAt": "2026-04-17T17:41:45.237Z",
+      "updatedAt": "2026-04-17T17:41:45.237Z"
+    },
+    "prisma-client-api": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/prisma/skills.git",
+      "skillPath": "prisma-client-api/SKILL.md",
+      "skillFolderHash": "cb6a31f762f6547c7e4e8a4e41e6fb0b55120c0e",
+      "installedAt": "2026-04-17T17:42:11.826Z",
+      "updatedAt": "2026-04-17T17:42:11.826Z"
+    },
+    "prisma-cli": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/prisma/skills.git",
+      "skillPath": "prisma-cli/SKILL.md",
+      "skillFolderHash": "14c8f12522d965ec8a23dee2c541c0b4c1ed9d57",
+      "installedAt": "2026-04-17T17:43:54.083Z",
+      "updatedAt": "2026-04-17T17:43:54.083Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  }
+}
