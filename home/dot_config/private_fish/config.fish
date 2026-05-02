@@ -6,7 +6,7 @@ end
 
 export EDITOR="nvim"
 
-alias ls="exa --icons"
+alias ls="eza --icons"
 alias find="fd"
 alias grep"rg"
 alias ps="procs"
@@ -28,7 +28,8 @@ alias edit="$EDITOR"
 alias zconfig='lvim ~/.zshrc'
 alias zcompletions='cd /usr/local/share/zsh/site-functions/'
 alias cmedit="chezmoi edit --watch"
-#alias cd="z"
+alias cd="z"
+alias docker="podman"
 
 export PATH="$PATH:/home/mateusfg7/.local/bin"
 export PATH="$PATH:/home/mateusfg7/Scripts"
@@ -46,7 +47,8 @@ export SSH_AUTH_SOCK=~/.1password/agent.sock
 set --export BUN_INSTALL $HOME/.bun
 set --export PATH $BUN_INSTALL/bin:$PATH
 
-zoxide init fish | source
+fzf --fish | source
+zoxide init --cmd cd fish | source
 mise activate fish | source
 op completion fish | source
 
