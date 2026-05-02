@@ -52,11 +52,11 @@ zoxide init --cmd cd fish | source
 mise activate fish | source
 op completion fish | source
 
+# RUSTUP
+set -e RUSTUP_TOOLCHAIN
+
 # PNPM
 set -gx PNPM_HOME "/home/mateus/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
-
-# RUSTUP
-set -e RUSTUP_TOOLCHAIN
