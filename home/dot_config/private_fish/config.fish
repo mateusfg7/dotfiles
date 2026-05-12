@@ -29,7 +29,6 @@ alias zconfig='lvim ~/.zshrc'
 alias zcompletions='cd /usr/local/share/zsh/site-functions/'
 alias cmedit="chezmoi edit --watch"
 alias cd="z"
-alias docker="podman"
 
 export PATH="$PATH:/home/mateusfg7/.local/bin"
 export PATH="$PATH:/home/mateusfg7/Scripts"
