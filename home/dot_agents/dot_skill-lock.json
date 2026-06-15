@@ -90,9 +90,71 @@
       "skillFolderHash": "60afa62b861f2afc2323098931c9ba336b168ff2",
       "installedAt": "2026-04-17T17:43:54.083Z",
       "updatedAt": "2026-06-14T17:46:03.646Z"
+    },
+    "better-auth-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/best-practices/SKILL.md",
+      "skillFolderHash": "a4c830509e85557b59339d8d93a4e243e9e59c686e7678854d39230e12c2a6dc",
+      "pluginName": "auth-skills",
+      "installedAt": "2026-06-15T15:53:27.826Z",
+      "updatedAt": "2026-06-15T15:53:27.826Z"
+    },
+    "create-auth-skill": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/create-auth/SKILL.md",
+      "skillFolderHash": "31c027d02dbf1faa37f58191f574b9443143042fb2b684fe32df53ab0270487c",
+      "pluginName": "auth-skills",
+      "installedAt": "2026-06-15T15:53:27.829Z",
+      "updatedAt": "2026-06-15T15:53:27.829Z"
+    },
+    "email-and-password-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/emailAndPassword/SKILL.md",
+      "skillFolderHash": "747d7f73bd9e2ec5317b8ef88dc70f97df716d00e3d02de4051feebaa48b062d",
+      "installedAt": "2026-06-15T15:53:27.829Z",
+      "updatedAt": "2026-06-15T15:53:27.829Z"
+    },
+    "organization-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/organization/SKILL.md",
+      "skillFolderHash": "79a5a85b43d10e9fe37582b3506b051a33a991817b938f349099baa5ddba21aa",
+      "installedAt": "2026-06-15T15:53:27.830Z",
+      "updatedAt": "2026-06-15T15:53:27.830Z"
+    },
+    "two-factor-authentication-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/twoFactor/SKILL.md",
+      "skillFolderHash": "7e297aaf887e11fdc03e52bdbf44974e161e8f7c393170ced7dc66cace4f6d46",
+      "installedAt": "2026-06-15T15:53:27.830Z",
+      "updatedAt": "2026-06-15T15:53:27.830Z"
     }
   },
   "dismissed": {
     "findSkillsPrompt": true
-  }
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
 }
