@@ -6,9 +6,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/shadcn/ui.git",
       "skillPath": "skills/shadcn/SKILL.md",
-      "skillFolderHash": "bf9e83da91320f445f2c27f65067009f344f757a",
+      "skillFolderHash": "53547268e4c90c0dd7981e098e1ea4a89393575a",
       "installedAt": "2026-04-06T13:32:04.985Z",
-      "updatedAt": "2026-04-06T13:32:04.985Z"
+      "updatedAt": "2026-06-14T17:45:46.107Z"
     },
     "find-skills": {
       "source": "vercel-labs/skills",
@@ -24,10 +24,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/anthropics/skills.git",
       "skillPath": "skills/frontend-design/SKILL.md",
-      "skillFolderHash": "928950704df8a8b885c03de5da626331e6f29cf8",
-      "pluginName": "example-skills",
+      "skillFolderHash": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
       "installedAt": "2026-04-06T20:54:58.706Z",
-      "updatedAt": "2026-04-06T20:54:58.706Z"
+      "updatedAt": "2026-06-14T17:45:47.846Z"
     },
     "polish": {
       "source": "pbakaus/impeccable",
@@ -43,28 +42,27 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
       "skillPath": "skills/programmatic-seo/SKILL.md",
-      "skillFolderHash": "ebd45df541268af6df1eef6855731b57fe09deb2",
-      "pluginName": "marketing-skills",
+      "skillFolderHash": "afbffddf471de4fc36f31fb0e502be1d79a3cf1d",
       "installedAt": "2026-04-07T13:24:32.767Z",
-      "updatedAt": "2026-04-07T13:24:32.767Z"
+      "updatedAt": "2026-06-14T17:45:49.714Z"
     },
     "docker-expert": {
       "source": "sickn33/antigravity-awesome-skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
       "skillPath": "skills/docker-expert/SKILL.md",
-      "skillFolderHash": "6e4ef11e3f04a33822d9d2a36b43c556f564972c",
+      "skillFolderHash": "4de306f28c3b66e8bb0419b574930bbce43ae47d",
       "installedAt": "2026-04-16T13:07:14.810Z",
-      "updatedAt": "2026-04-17T11:52:35.996Z"
+      "updatedAt": "2026-06-14T17:45:59.964Z"
     },
     "turborepo": {
       "source": "vercel/turborepo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel/turborepo.git",
       "skillPath": "skills/turborepo/SKILL.md",
-      "skillFolderHash": "5cffe587c4552af985368ae579060bdb2f9d05f3",
+      "skillFolderHash": "c53c0e4fabb854feb752ba360fb29314b4e9b3c9",
       "installedAt": "2026-04-17T11:59:12.584Z",
-      "updatedAt": "2026-04-17T11:59:12.584Z"
+      "updatedAt": "2026-06-14T17:46:01.949Z"
     },
     "prisma-database-setup": {
       "source": "prisma/skills",
@@ -89,56 +87,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/prisma/skills.git",
       "skillPath": "prisma-cli/SKILL.md",
-      "skillFolderHash": "14c8f12522d965ec8a23dee2c541c0b4c1ed9d57",
+      "skillFolderHash": "60afa62b861f2afc2323098931c9ba336b168ff2",
       "installedAt": "2026-04-17T17:43:54.083Z",
-      "updatedAt": "2026-04-17T17:43:54.083Z"
-    },
-    "better-auth-best-practices": {
-      "source": "better-auth/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/better-auth/skills.git",
-      "skillPath": "better-auth/best-practices/SKILL.md",
-      "skillFolderHash": "58f87c7fe7c2c487779728c1e73ea43717612d37",
-      "pluginName": "auth-skills",
-      "installedAt": "2026-05-08T17:28:34.989Z",
-      "updatedAt": "2026-05-08T17:28:34.989Z"
-    },
-    "create-auth-skill": {
-      "source": "better-auth/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/better-auth/skills.git",
-      "skillPath": "better-auth/create-auth/SKILL.md",
-      "skillFolderHash": "5192f50c149fc94b6bfb4cf288dfd84f37517e00",
-      "pluginName": "auth-skills",
-      "installedAt": "2026-05-08T17:28:34.996Z",
-      "updatedAt": "2026-05-08T17:28:34.996Z"
-    },
-    "email-and-password-best-practices": {
-      "source": "better-auth/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/better-auth/skills.git",
-      "skillPath": "better-auth/emailAndPassword/SKILL.md",
-      "skillFolderHash": "9da895cd339e3eda0ba6d1b8d2b54e24799b1992",
-      "installedAt": "2026-05-08T17:28:34.997Z",
-      "updatedAt": "2026-05-08T17:28:34.997Z"
-    },
-    "organization-best-practices": {
-      "source": "better-auth/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/better-auth/skills.git",
-      "skillPath": "better-auth/organization/SKILL.md",
-      "skillFolderHash": "461989110d1cd43c4809bea01c9a61b9fd432056",
-      "installedAt": "2026-05-08T17:28:34.998Z",
-      "updatedAt": "2026-05-08T17:28:34.998Z"
-    },
-    "two-factor-authentication-best-practices": {
-      "source": "better-auth/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/better-auth/skills.git",
-      "skillPath": "better-auth/twoFactor/SKILL.md",
-      "skillFolderHash": "c3e340469e63705527a6191c6b7ac94ff7448ded",
-      "installedAt": "2026-05-08T17:28:34.999Z",
-      "updatedAt": "2026-05-08T17:28:34.999Z"
+      "updatedAt": "2026-06-14T17:46:03.646Z"
     }
   },
   "dismissed": {
