@@ -1,285 +1,79 @@
 {
-  "version": 2,
+  "version": 3,
   "skills": {
-    "accessibility": {
-      "name": "accessibility",
-      "source": "local",
-      "contentHash": "706129400c8c91a9264582940b36007116faffcaf27bb0780bdab87337b4f881",
-      "installedAt": "2026-07-04T14:45:37.384Z",
-      "updatedAt": "2026-07-04T14:45:37.398Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
+    "better-auth-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/best-practices/SKILL.md",
+      "skillFolderHash": "2ab82b0b744f426903e321f4abcf0440c6e201ca",
+      "pluginName": "auth-skills",
+      "installedAt": "2026-07-11T18:47:32.958Z",
+      "updatedAt": "2026-07-11T18:47:32.958Z"
     },
-    "aws-advisor": {
-      "name": "aws-advisor",
-      "source": "local",
-      "contentHash": "959d64baef88617c3cd3273250de4eef5e0954d627a2c01708b23fd0f6e0f050",
-      "installedAt": "2026-07-04T14:46:50.741Z",
-      "updatedAt": "2026-07-04T14:46:50.770Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
+    "create-auth": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/create-auth/SKILL.md",
+      "skillFolderHash": "05ce3d9f5b7fcf20379dacc66afdfcd8f1c5cfbc",
+      "pluginName": "auth-skills",
+      "installedAt": "2026-07-11T18:47:32.960Z",
+      "updatedAt": "2026-07-11T18:47:32.960Z"
     },
-    "best-practices": {
-      "name": "best-practices",
-      "source": "local",
-      "contentHash": "e22b6d3e9c7d29cc5f92a89a1a393aa2686aa5c0cd70b7159a7fc9a2bc779461",
-      "installedAt": "2026-07-04T14:47:24.858Z",
-      "updatedAt": "2026-07-04T14:51:52.929Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
+    "better-auth-security-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "security/SKILL.md",
+      "skillFolderHash": "7cd035c1dd03aafc236ea43492d31ca3306b7ab6",
+      "installedAt": "2026-07-11T18:47:32.960Z",
+      "updatedAt": "2026-07-11T18:47:32.960Z"
     },
-    "frontend-blueprint": {
-      "name": "frontend-blueprint",
-      "source": "local",
-      "contentHash": "c79c5acbf69e88e1b0c848e64afb671f33091e32b6dcb1b2e6f9c78213a10ec3",
-      "installedAt": "2026-07-04T14:48:27.441Z",
-      "updatedAt": "2026-07-04T14:48:27.452Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
+    "email-and-password-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/emailAndPassword/SKILL.md",
+      "skillFolderHash": "9da895cd339e3eda0ba6d1b8d2b54e24799b1992",
+      "installedAt": "2026-07-11T18:47:32.961Z",
+      "updatedAt": "2026-07-11T18:47:32.961Z"
     },
-    "react-composition-patterns": {
-      "name": "react-composition-patterns",
-      "source": "local",
-      "contentHash": "171c6a35a0a74a6b37facf2a6e3883a02f53e3f2d429e6aa5834412c65d38dc7",
-      "installedAt": "2026-07-04T14:48:36.674Z",
-      "updatedAt": "2026-07-04T14:48:36.696Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
+    "organization-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/organization/SKILL.md",
+      "skillFolderHash": "f003068406f2dda78bbbebbd7446576c2baa276c",
+      "installedAt": "2026-07-11T18:47:32.961Z",
+      "updatedAt": "2026-07-11T18:47:32.961Z"
     },
-    "tactical-ddd": {
-      "name": "tactical-ddd",
-      "source": "local",
-      "contentHash": "c3dfaf45e8cb784f18d9c460c7f005c4ee9dbb430f21ee8af6913bbfea66a75b",
-      "installedAt": "2026-07-04T14:48:46.309Z",
-      "updatedAt": "2026-07-04T14:48:46.321Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "the-fool": {
-      "name": "the-fool",
-      "source": "local",
-      "contentHash": "b761f983e21e00173ac42760f478095a3e8c733862c20d9f711d10d962f407cc",
-      "installedAt": "2026-07-04T14:50:40.463Z",
-      "updatedAt": "2026-07-04T14:50:40.477Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "frontend-design": {
-      "name": "frontend-design",
-      "source": "local",
-      "contentHash": "b20162c8d6bcdd9137c4afceaeb4f9dce2c1ba3ccb57a96a3228b8cb33104ec4",
-      "installedAt": "2026-07-04T14:50:49.591Z",
-      "updatedAt": "2026-07-04T14:50:49.608Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "docs-writer": {
-      "name": "docs-writer",
-      "source": "local",
-      "contentHash": "c49827c59d2e27d313731dfd36314cfde0e8dbf15be0e8f813d2f8b751546b0c",
-      "installedAt": "2026-07-04T14:51:10.592Z",
-      "updatedAt": "2026-07-04T14:51:10.607Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "nestjs-modular-monolith": {
-      "name": "nestjs-modular-monolith",
-      "source": "local",
-      "contentHash": "0bf9fee4b6a151866c38204557b13452feefb315b7d982a36c79125bcc3d076a",
-      "installedAt": "2026-07-04T14:51:16.680Z",
-      "updatedAt": "2026-07-04T14:51:16.698Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "core-web-vitals": {
-      "name": "core-web-vitals",
-      "source": "local",
-      "contentHash": "3a67190e1dea1f2573d4fbb17071bbdac5ff4fd087d8cb5271094851c2acd559",
-      "installedAt": "2026-07-04T14:51:35.827Z",
-      "updatedAt": "2026-07-04T14:51:35.837Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "perf-web-optimization": {
-      "name": "perf-web-optimization",
-      "source": "local",
-      "contentHash": "864bb35d6ec7e7755181886b57709b76d8b5da5181a6d8480cd412dd772f1ffb",
-      "installedAt": "2026-07-04T14:51:49.712Z",
-      "updatedAt": "2026-07-04T14:51:49.727Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "react-best-practices": {
-      "name": "react-best-practices",
-      "source": "local",
-      "contentHash": "e96f99e13dc2acc75efc1793aee08fe244802a97a4e190af38bd5a871a5c9636",
-      "installedAt": "2026-07-04T14:52:09.603Z",
-      "updatedAt": "2026-07-04T14:52:09.644Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "seo": {
-      "name": "seo",
-      "source": "local",
-      "contentHash": "fc9897a3923b5e23e00545ac67f4c8c2b6903113bd5f046cda259c98a0f3cd40",
-      "installedAt": "2026-07-04T14:52:13.726Z",
-      "updatedAt": "2026-07-04T14:52:13.738Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "web-quality-audit": {
-      "name": "web-quality-audit",
-      "source": "local",
-      "contentHash": "8af5bd3453984bdcef903709b6ef0606b12ae1badb6dd5b5b382b930d2594d7c",
-      "installedAt": "2026-07-04T14:52:18.096Z",
-      "updatedAt": "2026-07-04T14:52:18.109Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "security-best-practices": {
-      "name": "security-best-practices",
-      "source": "local",
-      "contentHash": "6fec09f7e43bb297ad6097e13469e85aa5b5d671a839b4f7e7871ef8eaa76c4e",
-      "installedAt": "2026-07-04T14:52:38.184Z",
-      "updatedAt": "2026-07-04T14:52:38.201Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "security-ownership-map": {
-      "name": "security-ownership-map",
-      "source": "local",
-      "contentHash": "d6231f21029bc14fc776dbef909f631a6b39d7d1b46b11b25dbfe51c51dd7141",
-      "installedAt": "2026-07-04T14:52:44.443Z",
-      "updatedAt": "2026-07-04T14:52:44.460Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "security-threat-model": {
-      "name": "security-threat-model",
-      "source": "local",
-      "contentHash": "9f4cf3c7971c6d84a4657c2c0c395a4c7febbac5a2361950922fc150fcef9599",
-      "installedAt": "2026-07-04T14:52:46.660Z",
-      "updatedAt": "2026-07-04T14:52:46.673Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "modular-decomposition": {
-      "name": "modular-decomposition",
-      "source": "local",
-      "contentHash": "b536c1851c862516e5fc111502311343b952073a992ea07c9f8f9b42fbbc2a44",
-      "installedAt": "2026-07-04T14:53:35.686Z",
-      "updatedAt": "2026-07-04T14:53:35.702Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
-    },
-    "modular-design-principles": {
-      "name": "modular-design-principles",
-      "source": "local",
-      "contentHash": "d53fdca7ae18205376956c39a3a1729edfae843f63e5f2a6c5dd2c64ccd8a576",
-      "installedAt": "2026-07-04T14:53:38.561Z",
-      "updatedAt": "2026-07-04T14:53:38.572Z",
-      "agents": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "method": "copy",
-      "global": false
+    "two-factor-authentication-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/twoFactor/SKILL.md",
+      "skillFolderHash": "d6deb736c46a34eca259b65c646f988b60a1ff85",
+      "installedAt": "2026-07-11T18:47:32.962Z",
+      "updatedAt": "2026-07-11T18:47:32.962Z"
     }
-  }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
 }
