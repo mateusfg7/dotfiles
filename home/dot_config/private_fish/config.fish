@@ -30,6 +30,8 @@ alias zcompletions='cd /usr/local/share/zsh/site-functions/'
 alias cmedit="chezmoi edit --watch"
 alias cd="z"
 
+export JOHN_HOME=/usr/share/john
+
 export PATH="$PATH:/home/mateusfg7/.local/bin"
 export PATH="$PATH:/home/mateusfg7/Scripts"
 
